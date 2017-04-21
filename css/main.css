@@ -1,0 +1,43 @@
+:root {				
+	--green: #539F44;
+	--blue-primary: #1F62AE;
+	--blue-secondary: #3E91C5;
+
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+}
+body {
+	margin: 0;
+}		
+header {
+	width: 100%;
+	background-color: var(--light-grey);
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin: 0;
+	height: 82px;
+	z-index: 5;
+}
+
+footer {
+	width: 100%;
+	background-color: white;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 100px;
+	z-index: 5;
+}
+section {
+	width: 100%;
+	background-color: var(--blue-secondary);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 100px;
+	z-index: 5;
+}
